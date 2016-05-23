@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Demo de algoritmos geneticos">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Análisis Jerarquico JS</title>
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/vendor/modernizr.js"></script>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Análisis Jerarquico</a>
+    </div>
+</nav>
+
+<div class="app">
+    <div class="row">
+        <div class="col s3">
+            <h6>Proceso de Analisis jerarquico.</h6>
+
+        </div>
+        <div class="col s9">
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="data" name="data" class="materialize-textarea"></textarea>
+                    <label for="data">Ingresa tus datos.</label>
+                </div>
+            </div>
+            <p align="center">
+                <button id="generar" class="btn deep-orange text-lighten-3">Generar analisis jerarquico</button>
+                <button id="default" class="btn grey text-lighten-3">Usar datos default</button>
+            </p>
+
+            <div class="row">
+                <div id="tabla-datos"></div>
+                <div id="output_panel" style="display: block;">
+                    <h5>Tabla de resultados</h5>
+                    <fieldset>
+                        <pre id="jerarquia-result"> </pre>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h5 class="white-text">MACHINE LEARNING Y TRATAMIENTO DE DATOS </h5>
+                <p class="grey-text text-lighten-4">El alumno deberá explicar, analizar, implementar, evaluar  y comparar una máquina con aprendizaje no supervisado considerando uno de los siguientes métodos (clasificación jerárquica o análisis de componentes principales). El alumno deberá tomar como base la máquina de aprendizaje  no supervisado que se proporciona en la presentación de Aprendizaje_No_Supervisado o realizar su propia investigación.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 DESARROLLO DE TRABAJO. MÁQUINA CON APRENDIZAJE NO SUPERVISADO.
+            <a class="grey-text text-lighten-4 right" href="#!">Equipo 1.</a>
+        </div>
+    </div>
+</footer>
+<script src="scripts/vendor.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
