@@ -29,7 +29,7 @@ function generaTabla(datos){
         output.push("<tr><td>"
         + lines[i].split(",").join("</td><td>")
         + "</td></tr>");
-    output = "<h5>Tabla de resultados</h5><table class='bordered striped'>" + output.join("") + "</table>";
+    output = "<h5>Matriz de datos</h5><table class='bordered striped'>" + output.join("") + "</table>";
     $('#tabla-datos').html(output);
 }
 /*Genera la lectura de los datos, agregandolas en un objeto para su calculo*/
