@@ -16,6 +16,7 @@ function generaAlgortimo() {
     root = jerarquico.aglomerar(data['labels'], data['vectors']);
     var pre = document.getElementById('text');
     var text = root.construyeDendograma(centroides,distancias);
+    console.log(root.construyeDendograma(true,true));
     $('#jerarquia-result').html(text);
 }
 
